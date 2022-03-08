@@ -1,0 +1,45 @@
+body{
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+  position: relative;
+  background-size: 400% 400%;
+  animation: change 10s ease-in-out infinite;
+}
+
+.page{
+    margin: 0 auto;
+}
+
+.navigation{
+  width: 100;
+  background-color: white;
+  overflow: hidden;
+  text-align: center;
+}
+
+.navigation ul{
+  list-style-type: none;
+  display: inline-block;
+}
+
+.navigation ul li{
+  float: left;
+  padding: 0 20px;
+}
+
+.navigation ul li a{
+  text-decoration: none;
+}
+
+@keyframes change{
+  0%{
+    background-position: 0 50%;
+  }
+  50%{
+    background-position: 100% 50%;
+  }
+  100%{
+    background-position: 0 50%;
+  }
+}
