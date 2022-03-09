@@ -113,9 +113,33 @@ h3{
 }
 
 #resume{
-  border: 3px solid #fff;
+  border: 3px solid #EE7752;
   padding-left: 5px;
   padding-right: 5px;
   margin-top: 5px;
   border-radius: 10px;
+}
+
+#projects h1{
+  color: #E73C7E;
+}
+
+#projects h3{
+  border-color: #E73C7E;
+}
+
+#index h1{
+  color: #EE7752;
+}
+
+#index h3{
+  border-color: #EE7752;
+}
+
+#about_me h1{
+  color: #23D5AB;
+}
+
+#about_me h3{
+  border-color: #23D5AB;
 }
