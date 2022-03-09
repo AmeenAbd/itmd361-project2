@@ -88,3 +88,7 @@ h3{
   width: fit-content;
   border: 3px solid #fff;
 }
+
+#onpage a{
+  background-color: #E73C7E;
+}
