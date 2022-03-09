@@ -34,20 +34,24 @@ p{
 
 .navigation ul{
   list-style-type: none;
-  padding-top: 5px;
+  padding: 5px 0 0 0;
   margin: 0;
   display: inline-block;
 }
 
 .navigation ul li{
   height: 100%;
+  padding-left: 20px;
   float: left;
+}
+
+.navigation ul > li:first-child{
+  padding-left: 0;
 }
 
 .navigation ul li a{
   color: #fff;
   font-size: 1.1em;
-  margin-left: 20px;
   border-radius: 50px;
   padding: 15px 30px;
   background-color: #23A6D5;
