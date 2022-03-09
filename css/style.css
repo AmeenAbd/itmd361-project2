@@ -9,6 +9,10 @@ body{
   font-family: Helvetica, sans-serif;
 }
 
+p{
+  font-size: 1.1em;
+}
+
 .page{
     max-width: 1080px;
     margin: 0 auto;
@@ -91,4 +95,14 @@ h3{
 
 #onpage a{
   background-color: #E73C7E;
+}
+
+.float_right{
+  float: right;
+  width: 200px;
+  height: 170px;
+}
+
+.clear{
+  clear: both;
 }
