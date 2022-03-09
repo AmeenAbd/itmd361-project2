@@ -111,3 +111,11 @@ h3{
 .clear{
   clear: both;
 }
+
+#resume{
+  border: 3px solid #fff;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-top: 5px;
+  border-radius: 10px;
+}
